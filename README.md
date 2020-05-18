@@ -1,18 +1,17 @@
-A starter template for those who want to use the famous javascript 3D game engine babylonjs with typescript and webpack.
 
-## How to Start? ##
 
-1. Download and Install Node.js
-2. Open Commandline and Enter
-```
-npm install 
-npm start
-```
-3. Open Browser and Enter [http://localhost:8080](http://localhost:8080)
+# Trouble shooting
 
-## Deployable Product Build ##
-1. Build the app
-```
-npm run build
-```
-2. Deployable app is in dist folder now
+
+## Error: default is not exported by node_modules/cannon/build/cannon.js, imported by src/index.ts
+
+After using `import cannon from 'cannon'` it shows default is not exported by...
+
+
+https://forum.babylonjs.com/t/cannon-including-problem/2287
+
+you should use require('cannon')
+
+
+## Rollup creates undefined variable
+https://github.com/rollup/rollup/issues/759

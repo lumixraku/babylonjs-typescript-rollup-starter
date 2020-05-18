@@ -2,7 +2,9 @@ import { GameUtils } from './game-utils';
 import * as BABYLON from 'babylonjs';
 import * as GUI from 'babylonjs-gui';
 
-export class Game {
+export { Game }
+
+class Game {
 
     private _canvas: HTMLCanvasElement;
     private _engine: BABYLON.Engine;
@@ -17,6 +19,8 @@ export class Game {
     constructor(canvasElement: string) {
         // Create canvas and engine
         this._canvas = <HTMLCanvasElement>document.getElementById(canvasElement);
+        // console.log("BABY", BABYLON.Engine)
+
         this._engine = new BABYLON.Engine(this._canvas, true);
     }
 
