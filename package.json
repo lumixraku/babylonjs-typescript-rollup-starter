@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "watch": "rollup --watch --config rollup.config.js"
   },
   "keywords": [],
   "author": "",
@@ -25,14 +26,15 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "babylonjs": "^4.1.0",
-    "babylonjs-gui": "^4.1.0",
-    "babylonjs-loaders": "^4.1.0",
-    "babylonjs-materials": "^4.1.0",
     "cannon": "^0.6.2",
     "earcut": "^2.2.2",
     "lodash": "^4.17.15",
     "oimo": "^1.0.9",
+    "rollup": "^2.10.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.27.1",
     "rxjs": "^6.5.5"
   }
 }

@@ -1,16 +1,11 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
+    "outDir": "./output/",
     "sourceMap": true,
     "noImplicitAny": false,
-    "module": "commonjs",
-    "target": "es5",
     "jsx": "react",
     "allowJs": true,
     "types": [
-      "babylonjs",
-      "babylonjs-gui",
-      "babylonjs-materials"
     ],
     "lib": [
       "es2016",
