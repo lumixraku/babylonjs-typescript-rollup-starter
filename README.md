@@ -1,4 +1,7 @@
-
+# Get Start
+https://doc.babylonjs.com/resources/offsite_tutorials_list
+https://doc.babylonjs.com/babylon101/
+https://doc.babylonjs.com/how_to/
 
 # Trouble shooting
 
@@ -10,7 +13,7 @@ After using `import cannon from 'cannon'` it shows default is not exported by...
 
 https://forum.babylonjs.com/t/cannon-including-problem/2287
 
-you should use require('cannon')
+you should use  `import * as CANNON from 'cannon'`
 
 
 ## Rollup creates undefined variable

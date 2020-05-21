@@ -1,5 +1,7 @@
 import 'babylonjs-loaders';
-import { Game } from './game';
+// import { Game } from './game';
+// import { First as Game} from './babylon101/first'
+import { BasicElem as Game} from './babylon101/basicElem'
 // import CANNON from 'cannon';
 // import * as CANNON from 'cannon'
 
