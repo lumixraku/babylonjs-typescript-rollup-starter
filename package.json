@@ -28,7 +28,7 @@
   "dependencies": {
     "cannon": "^0.6.2",
     "earcut": "^2.2.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "oimo": "^1.0.9",
     "rollup": "^2.10.2",
     "rollup-plugin-commonjs": "^10.1.0",
